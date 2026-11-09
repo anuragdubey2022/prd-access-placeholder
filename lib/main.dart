@@ -38,11 +38,18 @@ class AccessPage extends StatelessWidget {
                   children: [
                     const Icon(Icons.lock_outline, size: 48),
                     const SizedBox(height: 16),
-                    Text('Requirements unavailable', style: Theme.of(context).textTheme.headlineSmall),
+                    Text(
+                      'Requirements unavailable',
+                      style: Theme.of(context).textTheme.headlineSmall,
+                    ),
                     const SizedBox(height: 12),
-                    const Text('The supplied PRD requires authenticated access. No product behavior is invented until the authoritative requirements are provided.'),
+                    const Text(
+                      'The supplied PRD requires authenticated access. No product behavior is invented until the authoritative requirements are provided.',
+                    ),
                     const SizedBox(height: 20),
-                    const Text('Provide the PRD as accessible plain text, PDF, DOCX, or a readable Google Doc to begin implementation.'),
+                    const Text(
+                      'Provide the PRD as accessible plain text, PDF, DOCX, or a readable Google Doc to begin implementation.',
+                    ),
                   ],
                 ),
               ),
