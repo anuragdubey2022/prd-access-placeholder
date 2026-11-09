@@ -1,9 +1,11 @@
 # Operating systems
 .DS_Store
 Thumbs.db
+
 # Editors
 .idea/
 .vscode/
+
 # Flutter/Dart
 .dart_tool/
 .flutter-plugins
@@ -12,8 +14,18 @@ Thumbs.db
 build/
 coverage/
 *.iml
-# Secrets
+
+# Secrets and signing material
 .env
 .env.*
 *.keystore
 *.jks
+key.properties
+**/key.properties
+*.p12
+*.pem
+*.mobileprovision
+GoogleService-Info.plist
+google-services.json
+*.local
+*.local.*

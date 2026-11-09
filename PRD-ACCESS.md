@@ -2,6 +2,6 @@
 
 - Google Docs plaintext retrieval: `PERMISSION_DENIED`.
 - Fallback URL reader: HTTP fetch failure.
-- Required source wording is therefore unavailable.
+- Required source wording is unavailable.
 
-No requirements have been inferred. The next action is to provide the document as accessible plain text, PDF, DOCX, or a Google Docs URL readable by the execution identity.
+The repository contains only a transparent access-status placeholder. No product requirements, security requirements, screens, data entities, integrations, or acceptance criteria are inferred. Supply the PRD as accessible plain text, PDF, DOCX, or a readable Google Doc before product implementation.
